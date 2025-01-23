@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 22.1.0  # Use the specific version of Black
+    hooks:
+      - id: black
+        language_version: python3.8  # Specify the Python version
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 4.0.1  # Use the specific version of Flake8
+    hooks:
+      - id: flake8
+
+  - repo: https://github.com/timothycrosley/isort
+    rev: 5.10.1  # Use the specific version of isort
+    hooks:
+      - id: isort
+        language_version: python3.8  # Specify the Python version
